@@ -24,6 +24,6 @@ public class HappyNumber {
                 sum = 0;
             }
         }
-        return sum==1;
+        return sum==1 || sum==7;
     }
 }
