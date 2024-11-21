@@ -1,0 +1,24 @@
+Type Casting :- The process of converting one datatype into another datatype is called as Type Casting. 
+
+                                             ---> Widening 
+                                             |
+               ---> Primitive Type Casting ---
+               |                             |
+Type Casting ---                             ---> Norrowing                 
+               |
+               ---> Non-Primitive Type Casting
+
+1. Primitive Type Casting :- The process of converting one primitive datatype to another primitive datatype is
+                             called primitive Type Casting.
+
+    i. Widening  :- The process of converting lower range datatype into higher range datatype is
+                    called Widening.
+                 -> Widening is also known as Emplicity Type Casting & AutoWidening.
+                 -> In this process, there is no data loss.
+
+   ii. Narrowing :- The process of converting higher range datatype into lower range datatype is
+                    called Widening.
+                 -> Widening is also known as Explicity Type Casting.
+                 -> In this process, there is chances of data loss.
+                 -> We can achieve narrowing by using typecast operator. 
+                            syntax:- (lower range datatype) higher range datatype literal variable;
