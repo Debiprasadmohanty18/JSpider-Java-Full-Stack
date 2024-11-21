@@ -27,3 +27,5 @@ Type Casting ---                             ---> Norrowing
                  -> We can achieve narrowing by using typecast operator. 
 
                             syntax:- (lower range datatype) higher range datatype literal variable;
+
+--> We can not convert Boolean datatype to Other Datatype.
