@@ -28,4 +28,8 @@ Type Casting ---                             ---> Norrowing
 
                             syntax:- (lower range datatype) higher range datatype literal variable;
 
+* Important Notes :-
 --> We can not convert Boolean datatype to Other Datatype.
+--> We can convert long value to float value implicitily(Autowidening Type Cast) because long datatype stores value int binary format in 
+    memory but float datatype stores the value in the form of exponential.
+        Ex :- Value = 8 , In long type it will be stored like - 1000 , In float type it will be stored like - 2^3.
