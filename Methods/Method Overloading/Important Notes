@@ -1,0 +1,19 @@
+Method Overloading :- Creating multiple methods with same name & different formal argument is known as Method Overloading.
+--> While Overloading a method argument or number of argument should be different.
+--> In method overloading java matches method call to method implementation based on method name & arguments.
+--> Method Overloading does not depend on return type.
+
+* When We will go for Method Overloading ?
+
+Ans :- When we need different different implementation for a particular or same behaviour, when arguments are  
+       different.
+
+* Can We Overload main() ?
+
+Ans :- Yes, we can overload main(). 
+       But JVM always calls the main(), which main() have signature as main(String [] args).
+
+Advantages of Method Overloading :- 
+--> By Method Overloading we can achieve Code-Reusability.
+--> By Method Overloading we can achieve Compile-Time Polymorphism.
+--> By Method Overloading we can achieve Code-Readability. 
