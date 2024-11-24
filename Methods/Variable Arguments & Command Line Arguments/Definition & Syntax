@@ -1,0 +1,7 @@
+Variable Agrumenets :- By using Variable Agrumenets we can make a method to accept 'n' number of Agrumenets.
+
+        syntax :-  (datatype... reference variable name)
+
+Command Line Agrumenets :- Command line arguments used to pass arguments to the main method of java program.
+
+        syntax :- java classname arg1 arg2 arg3...etc
