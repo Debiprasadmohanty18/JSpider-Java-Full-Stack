@@ -1,0 +1,20 @@
+1. Object :- Every real world entity is called as Object.
+-> Every object having two properties States & Behaviours.
+-> In java, we can represent a object states by using VARIABLES & behaviour  by using METHODS.
+
+2. Class :- Class is a blueprint of an object.
+-> Class is also known as Template or Logical Entity of an object.
+-> We can create a class by using "class" keyword.
+
+            Ex :- 
+                    class Mobile {
+
+                        String name;   |==== 
+                        String colour; |    |---> States 
+                        int price;     |====
+
+                        static void texting() {}   |====
+                        static void calling() {}   |    |---> Behaviours
+                        static void browsing() {}  |====
+
+                    }
