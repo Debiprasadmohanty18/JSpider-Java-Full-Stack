@@ -1,11 +1,11 @@
 package com.JSP.Constructor;
 
-public class Example4 {
+public class Example3 {
 	
 	int i;
 	int j;
 	
-	Example4(int a, int b)
+	Example3(int a, int b)
 	{
 		i = a;
 		j = b;
@@ -18,10 +18,10 @@ public class Example4 {
 
 	public static void main(String[] args) {
 		
-		Example4 ob = new Example4(10, 20);
+		Example3 ob = new Example3(10, 20);
 		ob.display(); // 10 20
 		System.out.println("==============");
-		Example4 ob1 = new Example4(30, 40);
+		Example3 ob1 = new Example3(30, 40);
 		ob1.display(); // 30 40
 
 	}
