@@ -1,19 +1,19 @@
 package com.JSP.Constructor;
 
-public class Example3 {
+public class Example2 {
 	
-	Example3(int i)
+	Example2(int i)
 	{
-		System.out.println("Example3(int i) : " + i);
+		System.out.println("Example2(int i) : " + i);
 	}
 
 	public static void main(String[] args) {
 		
-//		new Example3(); // Compile Time Error
-//		new Example3(10.45); // Compile Time Error
+//		new Example2(); // Compile Time Error
+//		new Example2(10.45); // Compile Time Error
 		
-		new Example3(10); // Example3(int i) :  + 10
-		new Example3(90); // Example3(int i) :  + 90
+		new Example2(10); // Example2(int i) :  + 10
+		new Example2(90); // Example2(int i) :  + 90
 
 	}
 
