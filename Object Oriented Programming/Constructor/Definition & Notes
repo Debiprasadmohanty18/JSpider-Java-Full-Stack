@@ -1,0 +1,35 @@
+=> Constructor :-
+==================
+--> Constructor is a special type non-static method or special type non-static multi-line initializer in java.
+--> Constructor is a set of statements, it will get executed immediately after object creation.
+--> Constructor name should be same name as class name.
+--> Constructor does not have return type.
+--> Constructor is used to initialize non-static data members.
+--> Constructor cann't be static.
+--> Constructor will get executed for every object creation.
+--> We can create constructor with Argument or Without Argument.
+
+=> No-Argument Constructor :-
+==============================
+--> Which constructor does not have a formal argument that constructor is called as No-Argument Constructor.
+
+=> Parameterized Constructor :-
+================================
+--> Which constructor having formal argument as parameter that constructor is called as No-Argument Constructor.
+--> To call parameterized constructor number of formal argument and number of actual argument should be same.
+
+=> Default Constructor :-
+==========================
+--> In a class if there is no constructor, compiler will add a constructor at compile time that constructor is called as Default Constructor.
+--> Default Constructor is a no-argument constructor.
+--> In java every class should have at least one constructor.
+
+=> Advantages of Constructor :- 
+================================
+--> Constructor is used to initialize objects.
+--> Constructor is used to initialize non-static data members of class.
+
+=> Purpose of Constructor :-
+=============================
+--> Constructor will load all non-static data members to the heap area.
+--> Constructor is used to execute all the non-static blocks in TOP-BOTTOM order.
