@@ -1,0 +1,21 @@
+=> "this" :-
+=============
+--> "this" is a keyword in java.
+--> "this" keyword is used to refer non-static member by using current instance.
+--> We cann't use "this" keyword in static method.
+--> Inside a method if, local variables and non-static variables are having same name then to refer non-static variables "this" keyword is mandatory.
+
+
+=> Abandon Object :- 
+=====================
+--> Object exist in heap area without any reference is called as Abandon Object.
+--> We cann't use abandon object references more than one time.
+--> If object become abandon means that object is eligible for removed from memory.
+--> When Garbage Collector will invoke it will remove all abandon object from Heap Area.
+
+
+=> Garbage Collector :- 
+========================
+--> Garbage Collector is a mechanism provided by JVM.
+--> It is used to memory management.
+--> It will make free space in heap area by removing abandon objects.
