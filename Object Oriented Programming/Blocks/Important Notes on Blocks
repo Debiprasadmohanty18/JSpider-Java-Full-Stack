@@ -1,0 +1,35 @@
+=> Blocks :- 
+=============
+-->It is used to initialize the data members.
+--> Blocks will get executed before Constructor.
+
+---------> Blocks are two types.
+		      1 - Static Block
+		      2 - Non-Static Block
+		      
+1 - Static Block :- 
+====================
+				
+				syntax :- static 
+						  {
+						  	// Statements
+						  }	
+						  	 
+--> Static Block are used to initialize static data members of a class.
+--> Static Block is also known as Multi-line Static Initializer.
+--> Inside Static block we cann't initialize non-static data member.
+--> Static block will get executed during class load time.
+--> Static block will get executed before actual execution.
+--> In a class we can declare 'n' number of static block and all static block will get executed top-bottom order.
+
+2 - Non-Static Block :-
+======================== 
+	
+				syntax :- {
+							// Non-Static Block 
+						  }   
+						  
+--> Non- Static Block is used to initialize non-static data members of a class.
+--> Non-static block will get executed when object is going to create.
+--> Inside non-static block we can initialize both static and non-static data members.   
+--> In a class we can create 'n' number of non-static blocks. And all non-static block will get executed top to bottom order when object will create.
