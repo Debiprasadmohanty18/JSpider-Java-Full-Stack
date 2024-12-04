@@ -2,9 +2,3 @@
 ==============================
 --> Creating multiple constructor with same name as class name in a particular class with  different formal arguments is known as Constructor Overloading.
 --> By Constructor Overloading, we can initialize object in multiple ways.
-
-=> this( ); or Call to this
-============================
---> Call to this is a Constructor calling method.
---> Call to this is used to call one constructor to another constructor within same class.
---> Call to this should be first line of the constructor.
