@@ -1,0 +1,20 @@
+=> Factory Method :-
+=====================
+--> Which method are creating objects and returning the reference that methods are called as Factory Methods.
+--> This methods are always static.
+
+			syntax :-  class ClassName 
+			{
+				public-Access-Modifier static-keyword ClassName-Return-Type methodName()
+				{
+				
+				}
+			}
+			
+
+			
+=> Singleton Class :-
+======================
+--> Singleton Class is a Class which class allows to create maximum one instance of class is called as Singleton Class.
+--> We can create a singleton class by making constructor private.
+--> We can create Singleton Class object by using Factory Method of singleton class. 
