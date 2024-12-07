@@ -18,3 +18,39 @@
                         static void browsing() {}  |====
 
                     }
+
+
+=> Class Loading Process :- 
+============================
+--> The loading process of class from hard disk to ram is known as Class loading process.
+--> For one class only one time class loading happen at first execution.
+
+Q-1 - WHERE MEMORY IS ALLOCATED FOR STATIC VARIABLE ?
+Answer:- For Static Variable, memory will be allocated inside "Class Static Area" during class loading time.
+--> For static variable, memory will be allocated for one time.
+
+Q-2 - WHERE NON-STATIC VARIABLE ARE STORED ?
+Answer:- For non-static variable, memory will be allocated inside "Heap Area" during object loading time.
+
+Q-3 - WHERE LOCAL VARIABLE ARE STORED ?
+Answer:- For local variable, memory will be allocated inside "Stack Area" during method execution time.
+
+Q-4 - WHEN WE WILL BE CREATE NON-STATIC VARIABLES FOR OBJECT ?
+Answer:- When we are going to store different variables for every objects in this situation we will create non-static variable.
+
+Q-5 - WHEN WE WILL BE CREATE STATIC VARIABLE FOR OBJECT ?
+Answer:- When we are going to represent common values for all object we will use static variable.
+
+Q-6 - WHEN WE WILL CREATE NON-STATIC METHOD ?
+Answer:- If the implementation is depending on non-static data members of a class in this situation we will create non-static method.
+
+Q-7 - WHEN WE WILL CREATE STATIC METHOD ?
+Answer:- If the implementation is not depending on non-static data member of a class then we will create static method.
+
+
+
+==> Important Notes :-
+=======================
+--> Inside static method we cann't use non-static directly.
+--> Inside static method we can use non-static variable by using object reference.
+--> Inside non-static method we can use both static & non-static variable directly.
