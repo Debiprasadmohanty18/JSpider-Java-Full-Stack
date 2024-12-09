@@ -1,0 +1,44 @@
+=> Inheritance :- 
+==================
+--> Acquiring Properties from one class to another class is known as Inheritance.
+--> Inheritance also known as "IS A" Relationship in java.
+--> We can achieve "IS A" relationship by using "extends" keyword.
+--> Inheritance represent real world Parent & Child relation.
+--> In java, One Class can extends only one class.
+
+=> Super Class :-
+==================
+--> From which class properties are acquiring that class is called as Super Class.
+--> Super Class is also known as Parent Class Or Base Class.
+
+=> Sub Class :-
+================
+--> To which class properties are acquired that class is called as Sub Class.
+--> Sub Class is also known as Child Class or Derived Class.
+
+=> Types Of Inheritance :-
+===========================
+
+1 - Single-Level Inheritance :- 
+--------------------------------
+* The inheritance between 1- parent class & 1- child class is called as Single level inheritance.
+									
+2 - Multi-Level Inheritance :-
+-------------------------------
+* One class is acting as a parent & child at a same time is called as Multi-level Inheritance.
+
+3 - Hierarchical Inheritance :-
+--------------------------------
+* One parent class having multiple child classes is called as Hierarchical Inheritance.
+
+4 - Multiple Inheritance :-
+----------------------------
+* One sub class having multiple Super classes is called as Multiple Inheritance.
+* Multiple Inheritance is not supported in java because of Diamond Problem.
+
+5 - Hybrid Inheritance :-
+---------------------------
+* Combination of Multiple Inheritance & Hierarchical Inheritance is called as Hybrid Inheritance.
+* Hybrid Inheritance is not supported in java because It is the combination of Hierarchical Inheritance & Multiple Inheritance.
+								   	    
+								  
