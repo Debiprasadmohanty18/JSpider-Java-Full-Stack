@@ -1,0 +1,17 @@
+=> Super Keyword :-
+====================
+--> In parent class and child class if, it is having same non-static data members to access parent class data member we need to use "SUPER KEYWORD".
+											OR
+--> By Using Super keyword we can access immediate parent class data members & member functions.
+
+--> Super Keyword can be used in any line of the statements.
+--> If you want to use super keyword, Parent & Child relationship/Inheritance is mandatory.
+--> Super keyword is always Explicit.
+
+
+=> Call to Super / super(); :- 
+===============================
+--> "super();" is used to call Constructor From Parent Class to Child Class.
+--> "super();" always should be in the first line of the every constructor.
+--> By using "super();" we can achieve constructor chaining.
+--> "super();" is always Implicit.
