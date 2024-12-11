@@ -7,6 +7,7 @@
 --> Super Keyword can be used in any line of the statements.
 --> If you want to use super keyword, Parent & Child relationship/Inheritance is mandatory.
 --> Super keyword is always Explicit.
+--> We cann't use super keyword inside static context.
 
 
 => Call to Super / super(); :- 
@@ -15,3 +16,12 @@
 --> "super();" always should be in the first line of the every constructor.
 --> By using "super();" we can achieve constructor chaining.
 --> "super();" is always Implicit.
+--> "super();" is used to call immediate parent class constructor.
+--> In java, every constructor having default call to super statements.
+--> We cann't use "this();" & "super();" in the same constructor.
+
+
+Q-1 :- When we will write super(); explicitly ?
+Ans :- If parent class having parameterized constructor, to call parent class parameterized constructor to call parent class parameterized constructor
+	we have to write parameterized super(); in child class.
+
