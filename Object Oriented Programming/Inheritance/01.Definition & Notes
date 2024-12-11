@@ -40,5 +40,21 @@
 ---------------------------
 * Combination of Multiple Inheritance & Hierarchical Inheritance is called as Hybrid Inheritance.
 * Hybrid Inheritance is not supported in java because It is the combination of Hierarchical Inheritance & Multiple Inheritance.
+
+
+
+Notes :-
+=========
+--> By using sub class reference we can access all parent class properties.
+--> By using super class reference we cann't access sub class specific properties.
+
+
+
+Q-1:- WHICH PROPERTIES WE CAN INHERIT FROM PARENT TO CHILD CLASS ?
+Ans:- In java, only non-static variables and methods can be inherited from parent to child class.
+
+Q-2:- WHICH PROPERTY WILL NOT INHERIT FROM PARENT TO CHILD CLASS ?
+Ans :- In java, static and private methods are not inherited from super class to sub class AND Constructor and Blocks also will not take part in inheritance.
+
 								   	    
 								  
