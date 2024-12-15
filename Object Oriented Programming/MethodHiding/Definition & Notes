@@ -1,0 +1,6 @@
+=> Method Hiding :-
+====================
+--> Creating a static method in sub class with exact signature as parent class static method is known as Method Hiding.
+--> Method Hiding also known as Method Shadowing.
+--> Method Hiding is only applicable for static methods.
+--> Method Hiding helps to achieve compile-time-polymorphism.
