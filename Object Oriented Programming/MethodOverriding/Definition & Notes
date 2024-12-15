@@ -1,0 +1,28 @@
+=> Method Overriding :-
+========================
+--> Changing or Providing new implementation for super class non-static methods in sub class is called as method overriding.
+--> For method overriding, "IS A" relationship/inheritance is mandatory.
+--> While overriding subclass, method name & argument should be same as parent class non-static method.
+--> While overriding a method access-modifier can be same as parent class type or wider level access-modifier.
+
+							Weaker Modifier |-> Private
+											|-> Default			
+											|-> Protected					
+						     Wider Modifier |-> Public						
+											
+--> While overriding a method, return type can be same or Co-variant type.
+--> In java, we can override only non-static, non-private and non-final methods.
+--> In java, we cann't override static, private and final methods.
+
+=> Override Annotation or @Override :- 
+=======================================
+--> @Override is a annotation present in "java.lang" package.
+--> Annotations are used to give special instructions to JVM.
+--> We use @Override annotation by overriding parent class methods in the child class.
+--> @Override annotation is not mandatory while overriding but highly recommended.
+--> Take @Override	will check method signature while override a method, If any method mismatched will happen instead creating a new method it will throw Compile Time Error.
+
+=> Advantages Of Method Overriding :-
+======================================
+--> By method overriding, we can provide new implementation of inheritance method in sub class.
+--> By using method overriding we can achieve run-time-polymorphism.			
