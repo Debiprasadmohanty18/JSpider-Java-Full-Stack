@@ -1,0 +1,33 @@
+=> Final Keyword :-
+====================
+--> Final is a Keyword & non-access modifier.
+--> We can use final keyword for :-
+			1 - Variables
+			2 - Methods
+			3 - Classes
+--> By Using final we can create Constants.
+
+1-Final Variables :-
+=====================
+--> Which variables are pre-fixed in final keyword, those variables are called as final variables.
+--> We cann't re-initialize the final variables.
+--> Final non-static variables will inherit super class to sub class.
+
+=> Blank Final Field :-
+========================
+--> Creating a final variable without initializing any value is called as Blank Final Field.
+--> Final variable does not have any default value.
+
+2-Final Methods :-
+===================
+--> Which method is having final keyword as a modifier, those methods are called as final methods.
+--> We cann't override final methods in subclass.
+--> We can make overridden methods as final.
+--> Final methods will inherit super class to sub class, but we cann't override.
+
+3-Final Class :-
+=================
+--> Which class pre-fixed with final keyword that class is called as Final Class.
+--> We cann't extends final class.
+--> Final class cann't be a parent for other class.
+--> We can make extending class as final.
