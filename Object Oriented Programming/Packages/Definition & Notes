@@ -1,0 +1,30 @@
+=> Packages :- 
+===============
+--> Collection of classes or interfaces are called as Packages.
+--> It is like a folder.
+--> By using packages, we can avoid naming Collision.
+--> By using packages, it is easy to access classes and interfaces.
+--> By using packages, we can achieve modularity.
+--> In java, There are two types of Packages :-
+			1 - Built-in Packages
+			2 - User-defined Packages
+
+1-Built-in Packages :-
+======================= 
+--> Which Package are already available in java libraries, those packages are called built-in packages.
+Examples :- java.lang,java.util
+
+2-User-defined Packages :-
+===========================
+--> Which Packages are created by programmer in java project, those packages are called as User-defined packages.
+Examples :- └── root
+  				  └── mypack
+   						 └── MyPackageClass.java
+
+
+=> Import a Package :-
+=======================
+--> If you find a class you want to use, then you can use it by importing.
+
+				Syntax :- import package.name.Class;   // Import a single class
+						  import package.name.*;   // Import the whole package
