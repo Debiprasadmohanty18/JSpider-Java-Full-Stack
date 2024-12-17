@@ -1,7 +1,7 @@
 => Factory Method :-
 =====================
 --> Which method are creating objects and returning the reference that methods are called as Factory Methods.
---> This methods are always static.
+--> This methods can be static or non-static.
 
 			syntax :-  class ClassName 
 			{
