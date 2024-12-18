@@ -4,8 +4,8 @@
 --> In java, we are having four types of Access Modifiers.
 			
 						↓	1 - Private		↑
-		  ↓ Visibility  ↓	2 - Default		↑			 
-				   	   	↓	3 - Protected	↑   Security ↑
+		 		  ↓ Visibility  ↓	2 - Default		↑			 
+				   	   	↓	3 - Protected		↑   Security ↑
 						↓	4 - Public		↑
 						
 1. Private: A private modifier's access level is limited to the class. It isn't accessible outside of the class.
