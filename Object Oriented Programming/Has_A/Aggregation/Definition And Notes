@@ -1,0 +1,11 @@
+=> Aggregation :-
+==================
+--> Aggregation is a form of Has-A relationship.
+--> We can achieve aggregation by placing one class reference variable into another class.
+--> In aggregation one object can exist without another object.
+--> Aggregation is a weak dependency between two objects.
+--> Aggregation represents real world "Has-A" relationship.
+
+Example :- Mobile and SimCard, Car and Music Player
+			because, Without SimCard and Music Player every Mobile and Car will work perfectly.
+			

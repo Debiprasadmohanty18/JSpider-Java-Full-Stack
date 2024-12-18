@@ -1,0 +1,10 @@
+=> Has-A Relationship :-
+=========================
+--> The association between two objects is called as Has-A relationship.
+--> We can achieve Has-A relationship by placing one class reference variable into another class.
+
+Example :-  	Engine----Has-A----Car(Engine)
+
+--> Based on level of dependency Has-A relationship having two forms i.e :-
+			1 - Aggregation    		
+			2 - Composition

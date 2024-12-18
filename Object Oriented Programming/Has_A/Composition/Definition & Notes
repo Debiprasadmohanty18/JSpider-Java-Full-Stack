@@ -1,0 +1,18 @@
+=> Composition :-
+==================
+--> Composition is a form of Has-A relationship.
+--> We can achieve composition by placing one class reference variable into another class.
+--> In Composition one object cann't exist without another object.
+--> Composition is a strong dependency between two objects.
+--> Composition represents real world "Has-A" relationship.
+--> Composition is a type of Aggregation.
+
+Example :- Mobile and MotherBoard, Car and Engine
+			because, Without MotherBoard and Engine every Mobile and Car will not work perfectly.
+			
+
+=> Advantages Of "Has-A" Relationship :-
+=========================================
+--> Code Re-usability.
+--> We can improve Code Readability.
+--> Without inheritance, we can access one class property into another class.			
