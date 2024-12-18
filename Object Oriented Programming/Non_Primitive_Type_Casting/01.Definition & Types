@@ -9,23 +9,23 @@
 
 Example-1 :- 
 							->--->----->----->FRUIT<-----<-----<---<--
-							↑				  ↓   ↓				 	 ↑
-			↑ Upcasting	    ↑	Downcasting ↓ ↓   ↓   ↓ Downcasting  ↑     Upcasting ↑
-							↑				  ↓   ↓				 	 ↑
+							↑		  ↓   ↓			 ↑
+			↑ Upcasting	    		↑  Downcasting ↓  ↓   ↓   ↓ Downcasting  ↑     Upcasting ↑
+							↑		  ↓   ↓			 ↑
 							<--<---APPLE<---<-↓   ↓->--->MANGO->-->-->
-									 ↑					   ↑
-									 ↑					   ↑
-									 -------❌------❌------
-									  Type Cast not Possible		
+								 ↑			 ↑
+								 ↑			 ↑
+								 -------❌------❌-------
+								  Type Cast not Possible.		
 
   In above Example, We can type cast FRUIT to APPLE, APPLE to FRUIT and also we can type cast FRUIT to MANGO, MANGO to FRUIT.
 But, we cann't type cast APPLE to MANGO why because there is no "Is-A" relationship between APPLE to MANGO.
 
 Example-2 :- 
 				  				--->->A<-<---
-				  	Upcasting   ↑	  ↑     ↑
-				  				↑	  |     ↑
+				  		  Upcasting     ↑     ↑     ↑
+				  				↑     |     ↑
 				  				--<---B     ↑  Upcasting
-				  				↓	  ↑     ↑
-				  	Upcasting   ↓	  |     ↑
-				  				--->->C------					
+				  				↓     ↑     ↑
+				  		  Upcasting     ↓     |     ↑
+				  				--->->C-->->-				
