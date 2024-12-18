@@ -1,0 +1,31 @@
+=> Non-Primitive Type Casting :-
+=================================
+--> In Java, all classes and interfaces are non-primitive type.
+--> The Process of converting one non-promitive type into another non-primitive type is known as non-primitive type casting.
+--> To achieve non-primitive type casting "Is-A" relationship is mandatory.
+--> It is of two types :-
+		1 - Upcasting
+		2 - Downcasting
+
+Example-1 :- 
+							->--->----->----->FRUIT<-----<-----<---<--
+							↑				  ↓   ↓				 	 ↑
+			↑ Upcasting	    ↑	Downcasting ↓ ↓   ↓   ↓ Downcasting  ↑     Upcasting ↑
+							↑				  ↓   ↓				 	 ↑
+							<--<---APPLE<---<-↓   ↓->--->MANGO->-->-->
+									 ↑					   ↑
+									 ↑					   ↑
+									 -------❌------❌------
+									  Type Cast not Possible		
+
+  In above Example, We can type cast FRUIT to APPLE, APPLE to FRUIT and also we can type cast FRUIT to MANGO, MANGO to FRUIT.
+But, we cann't type cast APPLE to MANGO why because there is no "Is-A" relationship between APPLE to MANGO.
+
+Example-2 :- 
+				  				--->->A<-<---
+				  	Upcasting   ↑	  ↑     ↑
+				  				↑	  |     ↑
+				  				--<---B     ↑  Upcasting
+				  				↓	  ↑     ↑
+				  	Upcasting   ↓	  |     ↑
+				  				--->->C------					
