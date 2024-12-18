@@ -1,0 +1,17 @@
+=> Access Modifier :-
+======================
+--> Access Modifiers are used to change the accessibility.
+--> In java, we are having four types of Access Modifiers.
+			
+						↓	1 - Private		↑
+		  ↓ Visibility  ↓	2 - Default		↑			 
+				   	   	↓	3 - Protected	↑   Security ↑
+						↓	4 - Public		↑
+						
+1. Private: A private modifier's access level is limited to the class. It isn't accessible outside of the class.
+
+2. Default: A default modifier's access level is limited to the package. It's not possible to get to it from outside the package. If you don't indicate an access level, the default will be used.
+
+3. Protected: A protected modifier's access level is both within the package and outside the package via a child class. The child class cannot be accessed from outside the package unless it is created.
+
+4. Public: A public modifier's access level is visible everywhere. It can be accessible from within and outside the class, from within and outside the package, and from within and outside the package.
