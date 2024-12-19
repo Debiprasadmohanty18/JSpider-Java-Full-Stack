@@ -1,0 +1,9 @@
+=> Upcasting :-
+=================
+--> The Process of creating object for sub class & storing the reference into parent type is called as Upcasting.
+--> Upcasting is an implicit type casting.
+--> Upcasting is also known as Auto-Upcasting.
+--> To achieve upcasting "IS-A" relationship is mandatory.
+--> By using upcasted variable we can access only generic variables.
+--> By using upcasted reference variable we cann't access sub class specific properties.
+--> By using upcasting we can achieve generalization.(The Process of creating generalizated container)
