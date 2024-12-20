@@ -21,13 +21,13 @@
 --> For non-static, non-private & non-final methods late binding will happen when it is called.
 
 
-				Early Binding					 |					 Late Binding
+		   Early Binding	 	 |		   Late Binding
 =================================================|======================================================	
 -> Early Binding done by Compiler at Compile time|-> Late Binding done by JVM at Run time 	
 -> Data members, static, private, final binding	 |-> Non-static, non-private, non-final methods are	
-	    at compile time.						 |	      binded at run time.
+	    at compile time.			 |	      binded at run time.
 -> We can achieve Early Binding using method	 |-> We can achieve late binding using method Overriding.
-									Overloading. |
-												 |
+						 |			Overloading.
+						 |
 												
 													
