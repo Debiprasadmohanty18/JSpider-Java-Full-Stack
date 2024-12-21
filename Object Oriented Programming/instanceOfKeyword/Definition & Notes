@@ -1,0 +1,6 @@
+=> instanceOf :-
+=================
+--> "instanceOf" is a keyword used to check the reference variable reference type.
+--> If the reference variable is belong to the given type it will return "TRUE" otherwise "FALSE".
+
+	syntax :-   reference-variable instanceOf Type
