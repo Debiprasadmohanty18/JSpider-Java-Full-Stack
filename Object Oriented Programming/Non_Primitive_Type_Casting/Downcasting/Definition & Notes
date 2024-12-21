@@ -1,0 +1,17 @@
+=> Downcasting :-
+===================
+--> The process of converting super type reference into sub type reference is called as Downcasting.
+--> We cann't achieve downcasting without upcasting.
+--> Downcasting is an explicit type casting.
+--> To achieve downcasting, type-cast operator is mandatory.
+--> By using upcasted reference we cann't access sub class specific property.
+--> To refer sub class specific property super class reference should be downcast for sub type.
+
+Q-1 :- WHEN WE WILL GET CLASS CAST EXCEPTION ?
+Answer :- Class cast exception is a unchecked exception.
+-> It occurs in two scenario :-
+1 - Without upcasting if we tried to do downcasting we will get class cast exception.
+2 - If upcasted reference type and downcasted reference type both are different then we will gwt class cast exception.
+
+
+--> We can avoid class cast exception by using "instanceOf" keyword while downcasting.
