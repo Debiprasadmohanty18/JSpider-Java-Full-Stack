@@ -1,0 +1,25 @@
+=> Object Class :-
+===================
+--> Object class is super most class in java.
+--> In java every class is sub type for object class.
+
+=> Some Important Methods :- 
+-----------------------------
+1 - toString()												
+2 - equals(Object o)
+3 - wait()
+4 - wait(long miliSec)
+5 - wait(long miliSec, int nanoSec)
+6 - hashCode()
+7 - clone()
+8 - notify()
+9 - notifyAll()
+10 - getClass()
+
+1- toString() :-
+=================
+--> toString() is a non-static method of object class.
+--> When we trying to print a reference variable of object, implicitly toString() will be called.
+--> Object class toString() will print String representation which is not meaningful.
+--> By Overriding toString(), we can provide meaningful representation according to object state.
+--> In String class toString() is already overriden.
