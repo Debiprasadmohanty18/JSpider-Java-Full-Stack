@@ -1,0 +1,45 @@
+=> "abstract" :-
+=================
+--> "abstract" is a Keyword or non-access modifier.
+--> We can use abstract keyword only for classes & methods.
+
+=> Concrete Class :-
+=====================
+--> Which Class does not have any abstract method that class is known as Concrete Class.
+--> It will not allow to create abstract function.
+
+=> Concrete Method :-
+======================
+--> A method with complete implementation is called as Concrete Method.
+--> Concrete methods are allowed to create inside concrete class & inside abstract class.
+
+=> abstract Class :-
+=====================
+--> Which class prefixed with abstract keyword those classes known as abstract class.
+--> We cann't make final class as abstract class.
+--> We cann't create object for abstract class.
+--> We cann't achieve up-casting between two abstract classes.
+--> Without abstract methods also we can make a class as abstract class.
+--> If any class having at least one abstract method, It is mandatory to make that class as abstract class.
+--> abstract class can contain concrete methods, constructors, blocks, variables etc.
+--> abstract class can be inherited to another class.
+--> abstract class is also incomplete class.
+--> By abstract class we can achieve Abstraction.
+
+=> abstract Method :-
+======================
+--> Which method having abstract keyword as modifier those methods are called as abstract method.
+--> abstract method also known as incomplete method.
+--> abstract method does not contain any method implementation.
+--> abstract methods are always ended with semicolon(;).
+--> The extending sub class will provide the implementation for abstract method.
+--> If extending sub class not overriding abstract methods then we have to make extending sub class as abstract.
+--> Final, Static, Private methods cann't be an abstract method.
+--> We can make only non-static, non-final, non-private methods as abstract methods.
+--> We can create abstract methods, only inside abstract class.
+
+# - Illegal Modifier Combination :-
+------------------------------------
+	1 - abstract final
+	2 - abstract static
+	3 - abstract private 
