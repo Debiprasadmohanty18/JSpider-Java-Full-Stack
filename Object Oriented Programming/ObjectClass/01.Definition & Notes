@@ -22,7 +22,7 @@
 --> When we trying to print a reference variable of object, implicitly toString() will be called.
 --> Object class toString() will print String representation which is not meaningful.
 --> By Overriding toString(), we can provide meaningful representation according to object state.
---> In String class toString() is already overriden.
+--> In String class toString() is already overridden.
 
 2- equals(Object o) :-
 =======================
