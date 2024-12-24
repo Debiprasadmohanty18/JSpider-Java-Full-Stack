@@ -23,3 +23,15 @@
 --> Object class toString() will print String representation which is not meaningful.
 --> By Overriding toString(), we can provide meaningful representation according to object state.
 --> In String class toString() is already overriden.
+
+2- equals(Object o) :-
+=======================
+--> equals() is a non-static method of object class.
+--> equals() is used to compare two objects are equal or not.
+--> Object class equals() will compare two object references.
+--> After overriding equals(), it will compare two object values are equal or not.
+--> equals() is used to non-primitive type values.
+--> In string class equals() is already overridden.
+
+--------------->   this.name == e.name --> This is not a proper way to check.
+--------------->   this.name.equals(e.name)  --> This is a proper way to check.
