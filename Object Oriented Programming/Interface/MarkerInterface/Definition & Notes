@@ -1,0 +1,5 @@
+=> Marker Interface :- 
+=======================
+--> Marker interface does not contain any functions or data members.
+--> Marker interface also known as Empty Interface or Tagged Interface.
+--> Marker interface is used to give special instruction to JVM.

@@ -1,0 +1,6 @@
+=> Functional Inheritance :-
+=============================
+--> Which interfaces having only one abstract function those interfaces are called as Functional Interface.
+--> A functional interface can have 'n' number of "default", "static", "private" methods but abstract method count should be One.
+--> To indicate functional interfaces, java providing "@FunctionalInterface" annotation.
+--> Some pre-defined functional interface are Runnable, Comparable, Comparator ,...etc.
