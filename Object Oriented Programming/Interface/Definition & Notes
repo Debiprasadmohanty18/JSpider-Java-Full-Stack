@@ -1,0 +1,48 @@
+=> Interface :-
+================
+--> interface is a intermediate between service provider & user program.
+--> interface is a non-primitive type.
+--> We can create a interface by using "interface" keyword.
+--> In interface we can declare only variables & methods.
+--> By default, interface variables are "public static final".
+--> By default, interface methods are "public abstract".
+--> To implement interface java providing "implements" keyword.
+--> Which classes are implementing interface those classes are called as implementing sub classes.
+--> Implementing sub classes will provide implementation for interface abstract method otherwise Implementing sub class will be declared as "abstract".
+--> We cann't instantiate interface.
+--> In java, one class can implement 'n' number of interface.
+
+			Example :- class A implements I1,I2,I3...
+					Here, I1,I2,I3 are interfaces.
+					
+--> In java, One class can extends one class & can implements multiple interface at the same time.
+		But, In this scenario, First we have to write "extends" keyword then "implements" keyword.
+		
+			Example :- class B extends A implements I1,I2
+					Here, A is a class & I1,I2 are interfaces
+					
+--> Till 'JDK-7' interface having only public & abstract methods and data members.
+--> Interface doesn't allow to create constructors and blocks.
+
+=> Interface Type Based on abstract function :-
+================================================
+1 - Regular Interface
+2 - Functional Interface
+3 - Marker Interface
+
+1 - Regular Interface :-
+-------------------------
+--> Other than, Functional Interface & Marker Interface remaining all interfaces are Regular interface.
+
+2 - Functional Interface :-
+----------------------------
+--> Which interfaces having only one abstract function those interfaces are called as Functional Interface.
+--> A functional interface can have 'n' number of "default", "static", "private" methods but abstract method count should be One.
+--> To indicate functional interfaces, java providing "@FunctionalInterface" annotation.
+--> Some pre-defined functional interface are Runnable, Comparable, Comparator ,...etc.
+
+3 - Marker Interface :-
+------------------------
+--> Marker interface does not contain any functions or data members.
+--> Marker interface also known as Empty Interface or Tagged Interface.
+--> Marker interface is used to give special instruction to JVM. 
