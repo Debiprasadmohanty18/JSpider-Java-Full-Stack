@@ -1,0 +1,18 @@
+=> Abstraction :- 
+==================
+--> Hiding Complex implementation from user and providing necessary functionalities to the user called as Abstraction.
+--> In Java, We can achieve abstraction in two ways, By Using --
+ 		1 - abstract Class      2 - interface
+--> Interface is a type which contains abstract functions.
+--> In interface we can declare the be-haviour, which is required for user.
+--> The Service provider's will provide detailed implementations for interface abstract methods.
+--> For user, interface details is enough to use service provider's program.
+		so, user can develop his own implementation for interface type without knowing any details implementing classes.
+--> Abstraction is also known as implementation hiding.
+
+=> Advantages Of Abstraction :- 
+================================
+--> By using Abstraction,
+		-- We can achieve implementation hiding.
+		-- We can achieve loose coupling.
+		-- We can achieve user friendly program. 
