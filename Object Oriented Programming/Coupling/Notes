@@ -1,0 +1,22 @@
+=> Coupling :-
+===============
+--> Coupling in Java refers to the degree of dependency or interaction between two classes or modules in a program.
+--> It is of two types.
+		1 - Tight Coupling 
+		2 - Loose Coupling
+		
+1 - Tight Coupling :-
+======================
+--> Service provider Program and User program is connected such a way, if any changes made in service provider program, directly it will affect in user program this scenario is called as Tight Coupling.
+									
+									OR
+									
+--> If a class relies heavily on the details of another class, they are tightly coupled. Changes in one class will likely affect the other.
+
+2 - Loose Coupling :-
+======================
+--> Service provider Program and User program is connected such a way, if any changes made in service provider program, directly it will not affect in user program this scenario is called as Loose Coupling.
+
+									OR
+									
+--> If a class has minimal dependency on another, they are loosely coupled. This makes the code more flexible, easier to maintain, and test.
