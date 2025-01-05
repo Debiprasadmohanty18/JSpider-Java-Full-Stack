@@ -1,0 +1,38 @@
+=> Wrapper Class :-
+====================
+--> A non-primitive version of primitive data-type is called as Wrapper Class.
+--> in Java, every primitive data-type having corresponding Wrapper Class.
+--> In java, All wrapper classes are final classes present in java.lang package.
+
+=> Advantage of Wrapper Class :-
+=================================
+--> Wrapper classes are used to represent primitive data-type in the form of object.
+--> By using wrapper classes, we can make as java is 100% object oriented programming.
+--> By using wrapper classes, we can convert String to Primitive.
+
+			Primitive Type   --------------->  Non-Primitive Type
+		  ------------------				 -----------------------
+			byte ---------------------------------> Byte
+			short --------------------------------> Short
+			int ----------------------------------> Integer
+			long ---------------------------------> Long
+			float --------------------------------> Float
+			double -------------------------------> Double
+			char ---------------------------------> Character
+			boolean ------------------------------> Boolean
+			
+=> AutoBoxing :-
+=================
+--> The process of converting primitive data into corresponding wrapper type is called as AutoBoxing.
+Example :-
+			int --> Integer , 
+			byte --> Byte , ... etc.
+			
+=> AutoUnboxing :-
+===================
+--> The process of converting non-primitive data into corresponding primitive type is called as AutoUnBoxing.
+--> AutoUnboxing is a implicit type.
+Example :-
+			Integer --> int , 
+			Byte --> byte , ... etc.
+			
