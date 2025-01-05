@@ -1,0 +1,20 @@
+=> Cloning :-
+==============
+--> Creating exact copy of an object is called as Cloning.
+--> In java, we can clone the objects by using object class clone().
+--> clone() will clone only cloneable type object.
+--> If objects are not cloneable type, we will get "clonenotsupported" exception.
+--> In java, Cloning is two types,
+		1 - Shallow Cloning  
+		2 - Deep Cloning
+		
+1. Shallow Cloning :-
+======================
+--> Shallow Cloning is a type of cloning, in shallow cloning referred property will not copy instead reference will copy.
+--> Which means, In shallow cloning, original object and clone object will refer some instances of referred object.
+--> In shallow cloning if we do any change in cloned object then it will reflect in original object.
+
+2. Deep Cloning :-
+===================
+--> Deep cloning is a type of cloning, In deep cloning, Object will clone along with referred properties.
+--> In deep cloning, cloned objects are independent, if we do any changes in cloned objects it will not reflect in original object.
