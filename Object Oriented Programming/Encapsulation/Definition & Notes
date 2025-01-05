@@ -1,0 +1,31 @@
+=> Encapsulation :-
+====================
+--> Wrapping data members and member functions in a single unit is called as data encapsulation.
+--> Perfect Encapsulated class should have all private data members and to access private data members, public methods.
+--> Encapsulation is also known as Data Hiding Process.
+--> In data encapsulation data functions will act on the data(Means Without member functions we cann't access variables).
+--> We can achieve data encapsulation by making data members as private.
+--> Private data members we cann't access outside of the class directly.
+--> We can access private data members by using public methods i.e getter() & setter().
+
+=> getter() :-
+---------------
+--> Getter methods are used to get the private variable's value outside of the class.
+--> Getter methods are always "Public".
+
+=> setter() :-
+---------------
+--> Setter methods are used to modify or update the private variable's value outside of the class.
+--> Setter methods are always "Public".
+
+=> Advantages of Data Encapsulation :-
+=======================================
+--> By using data encapsulation, we can achieve data security in java.
+--> A class can have full control on its data.
+--> We can verify & validate the data before modifying the data.
+--> By using data encapsulation , we can make private variable as,
+						-- Only Readable.
+						-- Only Modifiable.
+						-- Both Readable & Modifiable.
+						-- Neither Readable or Modifiable.
+						
