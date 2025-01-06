@@ -46,3 +46,39 @@
 --> Marker interface does not contain any functions or data members.
 --> Marker interface also known as Empty Interface or Tagged Interface.
 --> Marker interface is used to give special instruction to JVM. 
+
+
+=> default Methods in Interface :-
+===================================
+--> From JDK-8, interface started allowing non-static methods with implementation is called as default methods.
+--> default methods should be declared by using "default" keyword.
+--> default methods are allowed only in interface.
+--> default methods access modifier is "public".
+--> Overriding default methods in subclass is not mandatory.
+--> default is a keyword & non-access modifier in interface.
+Example :- 
+			default void m1()
+			{
+			
+			}
+			
+=> Advantages or Uses of default Methods :-
+============================================
+--> default methods are used to add a new implementation to interface without interrupting existing implementation.
+
+Note :- 
+--------
+** From JDK-8, interface started allowing static, default methods.
+* interface static methods are called by using interface name.
+** From JDK-9, interface started allowing private methods.
+* These all methods are used to add a new implementation to interface.
+* Interface cann't be a sub type for any class including object class.
+* Object class is not a super type of interface.
+
+=> Advantages of Interface :- 
+==============================
+--> By Using Interface, We can achieve :-
+					  --> Abstraction
+					  --> Multiple Inheritance
+					  --> Loose Coupling
+					  --> Can write user friendly program. 
