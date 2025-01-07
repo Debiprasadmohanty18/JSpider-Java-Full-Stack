@@ -28,6 +28,7 @@ public class ChangeCase {
 		}
 		
 		System.out.println("Original String : " + s1);
+		// System.out.println("Resultant String : " + new String(ch));
 		System.out.print("Resultant String : ");
 		System.out.println(ch);
 	}
