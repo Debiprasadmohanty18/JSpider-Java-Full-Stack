@@ -1,5 +1,12 @@
 package com.String;
 
+/*
+
+1 - input :- "BOSS"   ,   output :- "BOS$"
+2 - input :- "BOSSSS"   ,   output :- "BOS$S$"
+ 
+*/
+
 public class ChangeConsecutiveCharacter {
 
 	public static void main(String[] args) {
