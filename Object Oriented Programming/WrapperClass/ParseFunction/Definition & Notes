@@ -1,0 +1,14 @@
+=> parse() :-
+==============
+--> parse() are used to convert String to corresponding primitive type.
+--> parse() are static methods.
+--> Every wrapper class having corresponding parse() except character class.
+
+Example :-
+ 
+ 		1 - String s = "10";
+ 			int n = Integer.parseInt(s);
+ 			
+ 		2 - Double.parseDouble("10.65");
+ 		
+ 		3 - Float.parseFloat("10.54f");
