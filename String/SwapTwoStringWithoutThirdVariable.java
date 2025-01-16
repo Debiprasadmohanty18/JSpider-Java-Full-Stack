@@ -1,5 +1,11 @@
 package com.String;
 
+/*
+
+1 - Input :- s1 = "Rohit", s2 = "Kohli"    ,    output :- s1 = "Kohli" , s2 = "Rohit" 
+ 
+*/
+
 public class SwapTwoStringWithoutThirdVariable {
 
 	public static void main(String[] args) 
