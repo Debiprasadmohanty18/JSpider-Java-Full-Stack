@@ -1,5 +1,12 @@
 package com.String;
 
+/*
+
+1 - Input :- 7653    ,    output :- Seven Thousand Six Hundred Fifty Three
+2 - Input :- 8003    ,    output :- Eight Thousand Three
+ 
+*/
+
 public class NumberToString {
 
 	public static void main(String[] args) 
