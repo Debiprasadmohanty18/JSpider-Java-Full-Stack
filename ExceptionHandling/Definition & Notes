@@ -1,0 +1,20 @@
+=> Exception :-
+================
+--> Exception is an interruption, it will occurs during execution of program at runtime.
+								OR
+--> Exception is an unwanted event occurs during program execution which terminates the flow of program abnormally.
+-->When exception will occur the program will get terminated abnormally.
+--> To continue the flow of our execution we need to handle the exceptions.
+
+
+Q - WHAT IS EXCEPTION HANDLING ?
+Answer :- Exception handling is a mechanism used to handle the exceptions.
+--> By using exception handling we can continue the flow of execution.
+
+--> To handle the exception java provides some exception handling keywords :
+				1 - try...catch
+				2 - throw
+				3 - throws
+				4 - finally
+				
+--> in java, we cann't handle errors, we can debug errors.
