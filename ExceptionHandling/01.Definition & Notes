@@ -18,3 +18,13 @@ Answer :- Exception handling is a mechanism used to handle the exceptions.
 				4 - finally
 				
 --> in java, we cann't handle errors, we can debug errors.
+
+=> finally :-
+==============
+--> "finally" is a keyword using in exception handling.
+--> "finally" keyword is used to declare the 'finally' block.
+--> We cann't use 'finally' block alone, we can write finally block in two ways i.e 1 - try with finally ,  2 - try...catch with finally
+--> 'finally' block is used to write costly resources like database , file-closing connection etc.
+--> 'finally' block will get executed every time if exception will occur or not.
+--> 'finally' block will get executed before executing "return" statement.
+--> 'finally block will not get executed, if exit(System.exit(0);) is present before 'finally' block.
