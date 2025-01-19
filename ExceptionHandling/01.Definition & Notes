@@ -19,8 +19,38 @@ Answer :- Exception handling is a mechanism used to handle the exceptions.
 				
 --> in java, we cann't handle errors, we can debug errors.
 
-=> finally :-
+1 - try :-
+===========
+--> 'try' is an exception handling keyword.
+--> It is used to write risk lines of code.
+--> We cann't write try block alone, It is always associated with catch block.
+--> We can write multiple catch block for one try block.
+--> While writing multiple catch block we have to follow the order i.e Sub type to Super type.
+--> After declaring Super Exception type catch block, we should not declare any catch block which is sub type of Exception class.
+
+2 - catch :- 
+=============
+--> catch is an exception handling keyword.
+--> It is used to provide alternate solution for exception.
+--> We cann't write catch block alone, It will always associated with try block.
+--> catch block will get executed when exception will occur inside try block.
+
+3 - throw :-
+=============
+--> It is a keyword used to throw the exception.
+--> Using throw keyword we can throw only one exception at a time.
+--> Using throw keyword we can throw both checked and unchecked exception.
+--> We can use 'throw' keyword inside a method.
+
+4 - throws :- 
 ==============
+--> It is a keyword used to declare the exception(Propagation).
+--> Using 'throws' keyword we can propagate multiple exception.
+--> 'throws' keyword mainly used to declare checked exception.
+--> 'throws' keyword is used along with method declaration. 
+
+5 - finally :-
+===============
 --> "finally" is a keyword using in exception handling.
 --> "finally" keyword is used to declare the 'finally' block.
 --> We cann't use 'finally' block alone, we can write finally block in two ways i.e 1 - try with finally ,  2 - try...catch with finally
