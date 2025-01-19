@@ -58,3 +58,39 @@ Answer :- Exception handling is a mechanism used to handle the exceptions.
 --> 'finally' block will get executed every time if exception will occur or not.
 --> 'finally' block will get executed before executing "return" statement.
 --> 'finally block will not get executed, if exit(System.exit(0);) is present before 'finally' block.
+
+
+=> Default Exception Handling :-
+=================================
+--> If programmer failed to handle the exception, JVM will handle the exception by terminating current execution, this process is called as default exception handling.
+--> Default exception handling is not an actual exception handling.
+
+
+=> Unchecked Exception :- 
+==========================
+--> Which exceptions are sub classes of RuntimeException class those exceptions are called as Unchecked exception.
+--> It is also known as compiler unknown exceptions.
+--> Handling is not mandatory for unchecked exception(Compiler will not force to handle unchecked exception).
+--> Propagation is implicit for unchecked exception.
+ Example :- ArithmeticException, ArrayIndexOutOfBoundException , .. etc
+ 
+ 
+=> Checked Exception :- 
+========================
+--> Which exceptions are not sub classes of RuntimeException class those exceptions are called as Checked exception.
+--> It is also known as compiler known exceptions.
+--> Handling is mandatory for Checked exception(Compiler will force to handle Checked exception).
+--> If Checked exception is not handled compiler will throw compile time error.
+ Example :- FileNotFoundException, ClassNotFoundException,... etc.
+ 
+=> Exception Propagation :- 
+============================
+--> Passing an exception to it's caller method is called as exception propagation.
+--> We can propagate the exception by using 'throws' keyword.
+--> For Unchecked exception, propagation is implicit.
+--> We can propagate Checked Exceptions by using 'throws' keyword.
+--> By Using 'throws' keyword we can propagate multiple exception at a time.
+--> 'throws' declaration is mandatory for UnHandled Checked Exception.
+
+
+* We can refer throw & throws Notes for Differnce between throw & throws...
