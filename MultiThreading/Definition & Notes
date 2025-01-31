@@ -1,0 +1,43 @@
+=> MultiThreading :-
+=====================
+--> MultiThreading is used to achieve multitasking.
+--> Multitasking is of two types.
+	1 - Process Based Multitasking
+	2 - Thread Based Multitasking
+	
+1 - Process Based Multitasking :-
+==================================
+--> Executing multiple process simultaneously is called as process based multitasking.
+--> It is using in Operating System level.
+--> It is also known as Heavy Weight Process.
+
+2 - Thread Based Multitasking :-
+=================================
+--> Executing multiple threads simultaneously is called as thread based multitasking.
+--> It is using in Programmatic level.
+--> It is also known as Light Weight Process.
+--> Multiple threads will use some Shared Resources.
+
+=> Thread :-
+=============
+--> Thread is a Light Weight sub-process in java.
+--> When java program executing, JVM will create three threads.
+		1 - Main Thread
+		2 - GC Thread
+		3 - Scheduler Thread
+--> In java, we can create threads in two ways by using 
+											1 - Thread Class
+											2 - Runnable Interface
+											
+=> Threads Execution :- 
+========================
+--> In java, threads will execute in a parallel manner.
+--> Every thread will maintain separate stack memory.
+--> If any problem occurs in one thread, it will not affect another thread execution.
+--> Threads will get executed when start() is called.
+--> We should not call start() twice by using same thread instance variable.
+
+* Thread has three properties.
+		1 - Thread Name
+		2 - Thread ID
+		3 - Thread Priority
